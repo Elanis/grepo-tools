@@ -19,11 +19,12 @@ function parseTowns() {
 		const id = parseInt(words[0]);
 		TownCache[id] = {
 			id,
-			name: words[1],
-			alliance_id: parseInt(words[2]),
-			points: parseInt(words[3]),
-			rank: parseInt(words[4]),
-			towns: parseInt(words[6]),
+			player_id: parseInt(words[1]),
+			name: words[2],
+			island_x: parseInt(words[3]),
+			island_y: parseInt(words[4]),
+			number_on_island: parseInt(words[5]),
+			points: parseInt(words[6]),
 		};
 	}
 }

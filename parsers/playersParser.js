@@ -23,7 +23,7 @@ function parsePlayers() {
 			alliance_id: parseInt(words[2]),
 			points: parseInt(words[3]),
 			rank: parseInt(words[4]),
-			towns: parseInt(words[6]),
+			towns: parseInt(words[5]),
 		};
 	}
 }
