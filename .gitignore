@@ -2,3 +2,4 @@ node_modules/
 txtgz-files/
 unzipped-files/
 coverage/
+config.js

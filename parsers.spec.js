@@ -14,21 +14,7 @@ import {
 } from './parsers/ranksParser.js';
 import { getTowns, getTown } from './parsers/townParser.js';
 
-const ALLY_ID = 0; // Replace by a valid id to test
-const ALLY_ID_INVALID = 0;
-
-const CONQUER_ID = 0;
-const CONQUER_ID_INVALID = 10000000;
-
-const ISLAND_ID = 0; // Replace by a valid id to test
-const ISLAND_ID_INVALID = 0;
-
-const PLAYER_ID = 0;  // Replace by a valid id to test
-const PLAYER_ID_INVALID = 0;
-
-const TOWN_ID = 0;  // Replace by a valid id to test
-const TOWN_ID_INVALID = 0;
-
+import { ALLY_ID, ALLY_ID_INVALID, CONQUER_ID, CONQUER_ID_INVALID, ISLAND_ID, ISLAND_ID_INVALID, PLAYER_ID, PLAYER_ID_INVALID, TOWN_ID, TOWN_ID_INVALID } from './config.js';
 
 it('AlliancesKillsAll', () => {
 	assert.notEqual(typeof getAlliancesKillsAll(), 'undefined');

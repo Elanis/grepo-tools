@@ -12,7 +12,7 @@ import {
 } from './parsers/ranksParser.js';
 import { getTowns, getTown } from './parsers/townParser.js';
 
-const PLAYER_NAME = 'WRITE HERE';
+import { PLAYER_NAME } from './config.js';
 
 console.log('Initializing app ...');
 
